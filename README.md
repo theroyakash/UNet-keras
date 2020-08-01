@@ -17,6 +17,6 @@ Every step in the expansive path consists of an upsampling of the feature map fo
 ### Skip Connection:
 The skip connection from the downsampling path are concatenated with feature map during upsampling path. These skip connection provide local information to global information while upsampling.
 
-###Final Layer:
+### Final Layer:
 At the final layer a 1x1 convolution is used to map each feature vector to the desired number of classes.
 ![img](https://i.imgur.com/vfdENcn.png)
